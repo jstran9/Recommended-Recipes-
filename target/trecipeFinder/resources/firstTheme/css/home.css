@@ -1,0 +1,101 @@
+/* 
+	* restricts the size of an image. 
+	* every picture on food2fork uses a width of 210px.
+*/
+.imgResize {
+	max-width: 210px;
+} 
+
+/* 
+	This can be hard coded because every image has the same width.
+	Leaves a bit of room for the margins on the left and right sides. 
+	Enforces word wrap around the image's width. 
+*/
+.searchItems {
+	width: 220px;
+	border: 1px solid #dfe2db;
+}
+
+/* helps with giving narrow margins when displaying the search result contents. */
+.searchItemsMargin {
+	margin: 5px;
+}
+
+/* when the publisher name is too long, the rating is on the following line. */
+.ratingContainer {
+	margin-left: 130px;
+	border: 2px solid #dfe2db;
+	width: 90px;
+}
+
+/* when the publisher name isn't too long the rating is on the same line. */
+.ratingContainerTwo {
+	margin-left: 130px;
+	width: 90px;
+	position: relative;
+	top: -30px;
+}
+
+/* modified bootstrap css to get a customized styling for the rating */
+.rating-styleTwo{
+	color:#fff;
+	background-color:#d9534f;
+	border-color:#d43f3a;
+}
+
+/* modified bootstrap css to get a customized styling for the rating */
+.rating-style{
+	display:inline-block;
+	padding:2px 4px;
+	margin-bottom:5px;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:center;
+	vertical-align:middle;
+	border:1px solid transparent;
+	border-radius:4px
+} 
+
+/* The maximum width of the images container */
+#formContainer {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+
+@media only screen and (max-width : 1199px),
+only screen and (max-device-width : 1199px){
+	#formContainer {
+		width: 1000px;
+	}
+}
+
+@media only screen and (max-width : 999px),
+only screen and (max-device-width : 999px){
+	#formContainer {
+		width: 800px;
+	}
+}
+
+@media only screen and (max-width : 799px),
+only screen and (max-device-width : 799px){
+	#formContainer {
+		width: 600px;
+	}
+}
+
+@media only screen and (max-width : 599px),
+only screen and (max-device-width : 599px){
+	#formContainer {
+		width: 400px;
+	}
+}
+
+@media only screen and (max-width : 399px),
+only screen and (max-device-width : 399px){
+	#formContainer {
+		width: 200px;
+	}
+}
+ 

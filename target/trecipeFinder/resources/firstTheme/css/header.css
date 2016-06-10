@@ -1,0 +1,76 @@
+/* The maximum width of the images container */
+#container {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+/* restricts the size of the container holding the results based on the browser's window size. */
+@media only screen and (max-width : 1199px),
+only screen and (max-device-width : 1199px){
+	#container {
+		width: 1000px;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+}
+
+@media only screen and (max-width : 999px),
+only screen and (max-device-width : 999px){
+	#container {
+		width: 800px;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+}
+
+@media only screen and (max-width : 799px),
+only screen and (max-device-width : 799px){
+	#container {
+		width: 600px;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+}
+
+@media only screen and (max-width : 599px),
+only screen and (max-device-width : 599px){
+	#container {
+		width: 400px;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+}
+
+@media only screen and (max-width : 399px),
+only screen and (max-device-width : 399px){
+	#container {
+		width: 200px;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+}
+
+/* the main logo/filler at the top of the page. */
+.mainHeader {
+	background-color: #dfe2db;
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+/* helps with aligning the home link */
+.mainLogo {
+	text-align: center;
+    margin: auto;
+}
+
+/* section below the main header. */
+.summaryContainer {
+	margin: auto;
+	margin-top: 1%;
+    width: 35%;
+    border: 2px solid #dfe2db;
+    padding: 10px;
+}

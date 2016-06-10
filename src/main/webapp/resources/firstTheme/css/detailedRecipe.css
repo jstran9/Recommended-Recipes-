@@ -1,0 +1,64 @@
+/* the main logo/filler at the top of the page. */
+.mainHeader {
+	background-color: #dfe2db;
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+/* helps with aligning the food2fork image. */
+.mainLogo {
+	display: block;
+    margin: auto;
+}
+
+/* section below the main header. */
+.summaryContainer {
+	margin: auto;
+	margin-top: 5px;
+    width: 35%;
+    border: 2px solid #dfe2db;
+    padding: 10px;
+}
+
+
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/* For desktop: */
+.col-5 {
+	margin-left: 15%;
+	width: 35%;
+}
+.col-6 {
+	width: 35%;
+	margin-right: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+		margin-left: 15%;
+    }
+}
+
+.imgResize {
+	max-width: 100%;
+}
+
+.recipe-title{
+    font-size:30px;
+}
+
+.divBorders{
+	border: 2px solid #dfe2db;
+}
+
+.verticalSeparator {
+	margin-top: 1%;
+}
